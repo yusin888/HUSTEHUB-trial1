@@ -1,9 +1,9 @@
 <?php
 
-$sName = "localhost";
-$uName = "root";
-$pass = "";
-$db_name = "hustlehub";
+$sName = "AZURE_MYSQL_HOST";
+$uName = "AZURE_MYSQL_USERNAME";
+$pass = "AZURE_MYSQL_PASSWORD";
+$db_name = "AZURE_MYSQL_DBNAME";
 
 try{
     $conn = new PDO("mysql:host=$sName;dbname=$db_name", $uName, $pass);
