@@ -1,7 +1,7 @@
 <?php
 
-$sName = "AZURE_MYSQL_HOST";
-$uName = "AZURE_MYSQL_USERNAME";
+$sName = "hustehub-server.mysql.database.azure.com";
+$uName = "kuiapqspwm";
 $pass = "AZURE_MYSQL_PASSWORD";
 $db_name = "AZURE_MYSQL_DBNAME";
 $port = "AZURE_MYSQL_PORT";
